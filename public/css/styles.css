@@ -26,13 +26,13 @@ div.top-header{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #03264C;
 }
 a:hover{
     text-decoration: underline;
 }
 a:visited{
-    color: black;
+    color: #03264C;
 }
 
 div.last-visit,
@@ -125,7 +125,15 @@ main section h3{
     width: 90%;
     padding: 15px;
 }
-
+.container-footer{
+    background-color: #EAC926;
+    color: #03264C;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 15px;    
+}
 
 article div.main-article{
     width: 100%;
@@ -360,7 +368,14 @@ footer{
     margin-top: 30px;
     margin-bottom: 15px;
 }
-
+.mt{
+    margin: 0px;
+    margin-top: 30px;
+}
+.mb{
+    margin: 0px;
+    margin-bottom: 30px;
+}
 .fa-truck:hover{
     animation-name: rotacion;
     animation-timing-function: linear;
